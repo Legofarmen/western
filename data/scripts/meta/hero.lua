@@ -24,8 +24,6 @@ function hero_meta:attack()
     sprite = "animals/phoenix",
     model = "bullet",
   })
-
-  print("attack")
 end
 
 -- Set up Eldran hero sprite on any game that starts.

@@ -106,3 +106,83 @@ destination{
   direction = 3,
 }
 
+enemy{
+  layer = 0,
+  x = 72,
+  y = 61,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 96,
+  y = 53,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 112,
+  y = 77,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 136,
+  y = 69,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 152,
+  y = 53,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 176,
+  y = 45,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 208,
+  y = 77,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 232,
+  y = 69,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 240,
+  y = 53,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 264,
+  y = 45,
+  direction = 0,
+  breed = "slime_green",
+}
+

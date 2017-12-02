@@ -24,6 +24,16 @@ function entity:on_created()
     entity:remove()
   end
 
+  function movement:on_position_changed()
+
+    for enemy in map:get_entities_by_type("enemy") do
+      if entity:overlaps(enemy) then
+        entity:remove()
+        enemy:remove_life(1)
+      end
+    end
+  end
+
   movement:start(self)
 
   -- Initialize the properties of your custom entity here,
