@@ -204,6 +204,7 @@ sound{ id = "wrong3", description = "wrong3" }
 
 enemy{ id = "slime_green", description = "Green Slime" }
 
+entity{ id = "bullet", description = "Bullet" }
 
 language{ id = "en", description = "English" }
 

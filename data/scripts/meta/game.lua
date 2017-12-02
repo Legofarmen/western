@@ -5,7 +5,8 @@ local game_meta = sol.main.get_metatable("game")
 function game_meta:on_key_pressed(key, modified)
   if key == "c" then
     -- C: Attack button pressed
-    print("action")
+    local hero = self:get_hero()
+    hero:attack()
   end
 end
 
