@@ -11,17 +11,17 @@ properties{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 32,
-  width = 288,
-  height = 1152,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 1200,
   pattern = "3",
 }
 
 tile{
   layer = 0,
-  x = 16,
-  y = 16,
+  x = 0,
+  y = 0,
   width = 8,
   height = 16,
   pattern = "32",
@@ -29,17 +29,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 24,
-  y = 16,
-  width = 272,
+  x = 8,
+  y = 0,
+  width = 304,
   height = 16,
   pattern = "33",
 }
 
 tile{
   layer = 0,
-  x = 296,
-  y = 16,
+  x = 312,
+  y = 0,
   width = 8,
   height = 16,
   pattern = "35",
@@ -47,8 +47,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 296,
-  y = 32,
+  x = 312,
+  y = 16,
   width = 8,
   height = 176,
   pattern = "31",
@@ -56,10 +56,10 @@ tile{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 32,
+  x = 0,
+  y = 16,
   width = 8,
-  height = 176,
+  height = 288,
   pattern = "30",
 }
 
@@ -237,7 +237,7 @@ tile{
 tile{
   layer = 0,
   x = 208,
-  y = 1072,
+  y = 1128,
   width = 32,
   height = 32,
   pattern = "41",
@@ -337,5 +337,25 @@ destination{
   x = 160,
   y = 1165,
   direction = 3,
+}
+
+wall{
+  name = "screen_bottom",
+  layer = 0,
+  x = 0,
+  y = 1200,
+  width = 320,
+  height = 8,
+  stops_hero = true,
+}
+
+wall{
+  name = "screen_top",
+  layer = 0,
+  x = 0,
+  y = -8,
+  width = 320,
+  height = 8,
+  stops_hero = true,
 }
 
