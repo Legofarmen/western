@@ -12,9 +12,13 @@ local game = map:get_game()
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
-
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  local camera = map:get_camera()
+  local movement = sol.movement.create("straight")
+  movement:set_speed(9)
+  movement:set_angle(math.pi / 2)
+  movement:start(camera)
+  local x, y = camera:get_position_to_track(map:get_hero())
+  movement:set_xy(x, y)
 end
 
 -- Event called after the opening transition effect of the map,
