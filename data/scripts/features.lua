@@ -5,6 +5,7 @@
 -- Features can be enabled to disabled independently by commenting
 -- or uncommenting lines below.
 
+require("scripts/meta/game")
 require("scripts/meta/hero")
 
 return true
