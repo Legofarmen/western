@@ -193,14 +193,14 @@ animation{
 }
 animation{
   name = "pushing",
-  src_image = "main_heroes/eldran_grabbing.png",
-  frame_delay = 150,
+  src_image = "main_heroes/eldran.png",
+  frame_delay = 70,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 23, num_frames = 6 },
-    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 23, num_frames = 6 },
-    { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 23, num_frames = 6 },
-    { x = 0, y = 96, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 23, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 23, num_frames = 8 },
+    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 23, num_frames = 8 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 23, num_frames = 8 },
+    { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 23, num_frames = 8 },
   },
 }
 animation{
