@@ -18,6 +18,7 @@ function entity:on_created()
   local movement = sol.movement.create("straight")
   movement:set_speed(300)
   movement:set_angle(math.pi / 2)
+  movement:set_smooth(false)
 
   function movement:on_obstacle_reached()
 
