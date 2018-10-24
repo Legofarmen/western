@@ -30,6 +30,10 @@ function map:on_started()
       local x, y = hero:get_position()
       hero:set_position(x, y+1)
     end
+    if not hero:test_obstacles(0, -1) then
+      local x, y = hero:get_position()
+      hero:set_position(x, y-1)
+    end
     while screen_bottom:overlaps(hero) do
       local x, y = hero:get_position()
       hero:set_position(x, y-1)
