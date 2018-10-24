@@ -49,6 +49,23 @@ function map:on_started()
   movement:set_xy(x, y)
 end
 
+function map:on_command_released(command)
+  if game:get_commands_direction() == nil then
+    --local movement = sol.movement.create("straight")
+    --movement:set_speed(9)
+    --movement:set_angle(math.pi / 2)
+    --movement:start(map:get_hero())
+    print(map:get_hero():get_animation())
+    map:get_hero():set_animation("walking")
+  end
+end
+
+function map:on_key_pressed(key, modifier)
+  if key == "up" or key == "down" or key == "left" or key == "right" then
+    map:get_hero():unfreeze()
+  end
+end
+
 function screen_bottom:on_position_changed(x, y)
 end
 

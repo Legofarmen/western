@@ -262,32 +262,32 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 96,
-  y = 53,
+  x = 224,
+  y = 901,
   direction = 0,
   breed = "slime_green",
 }
 
 enemy{
   layer = 0,
-  x = 112,
-  y = 77,
+  x = 240,
+  y = 925,
   direction = 0,
   breed = "slime_green",
 }
 
 enemy{
   layer = 0,
-  x = 136,
-  y = 69,
+  x = 72,
+  y = 605,
   direction = 0,
   breed = "slime_green",
 }
 
 enemy{
   layer = 0,
-  x = 152,
-  y = 53,
+  x = 88,
+  y = 589,
   direction = 0,
   breed = "slime_green",
 }
@@ -295,7 +295,7 @@ enemy{
 enemy{
   layer = 0,
   x = 176,
-  y = 45,
+  y = 77,
   direction = 0,
   breed = "slime_green",
 }
@@ -310,24 +310,24 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 232,
-  y = 69,
+  x = 216,
+  y = 413,
   direction = 0,
   breed = "slime_green",
 }
 
 enemy{
   layer = 0,
-  x = 240,
-  y = 53,
+  x = 224,
+  y = 397,
   direction = 0,
   breed = "slime_green",
 }
 
 enemy{
   layer = 0,
-  x = 264,
-  y = 45,
+  x = 248,
+  y = 389,
   direction = 0,
   breed = "slime_green",
 }
@@ -357,5 +357,29 @@ wall{
   width = 320,
   height = 8,
   stops_hero = true,
+}
+
+enemy{
+  layer = 0,
+  x = 112,
+  y = 85,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 216,
+  y = 37,
+  direction = 0,
+  breed = "slime_green",
+}
+
+enemy{
+  layer = 0,
+  x = 248,
+  y = 69,
+  direction = 0,
+  breed = "slime_green",
 }
 
