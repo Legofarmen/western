@@ -66,22 +66,7 @@ sprite{ id = "things/steam", description = "steam" }
 sprite{ id = "things/switch_aureole", description = "switch aureole" }
 sprite{ id = "things/water_splash_effect", description = "water splash" }
 
-music{ id = "eduardo/boss", description = "Boss" }
-music{ id = "eduardo/cave", description = "Cave" }
-music{ id = "eduardo/dungeon_finished", description = "Dungeon finished" }
-music{ id = "eduardo/fairy", description = "Fairy" }
-music{ id = "eduardo/fanfare", description = "Fanfare" }
-music{ id = "eduardo/game_over", description = "Game Over" }
-music{ id = "eduardo/lunarius", description = "Lunarius theme" }
-music{ id = "eduardo/mini_game", description = "Mini game" }
-music{ id = "eduardo/mountains", description = "Mountains" }
-music{ id = "eduardo/neptune_battle", description = "Neptune battle" }
-music{ id = "eduardo/overworld", description = "Overworld" }
-music{ id = "eduardo/soldiers", description = "Soldiers" }
-music{ id = "eduardo/sword_fanfare", description = "Sword fanfare" }
-music{ id = "eduardo/title_screen", description = "Title screen" }
-music{ id = "eduardo/village", description = "Village" }
-music{ id = "eduardo/witch_hut", description = "Witch" }
+music{ id = "maple-leaf-rag", description = "Maple Leaf Rag" }
 
 sound{ id = "arrow_hit", description = "arrow_hit" }
 sound{ id = "bird_chirp", description = "bird_chirp" }
