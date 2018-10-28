@@ -66,6 +66,7 @@ sprite{ id = "things/steam", description = "steam" }
 sprite{ id = "things/switch_aureole", description = "switch aureole" }
 sprite{ id = "things/water_splash_effect", description = "water splash" }
 
+music{ id = "de-campdown-races", description = "De Campdown Races" }
 music{ id = "maple-leaf-rag", description = "Maple Leaf Rag" }
 
 sound{ id = "arrow_hit", description = "arrow_hit" }
